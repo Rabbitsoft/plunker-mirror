@@ -1,1 +1,1 @@
-BASE_PATH="plunker-mirror/"
+BASE_PATH="plunker-mirror"
