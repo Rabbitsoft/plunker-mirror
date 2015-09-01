@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  
+  <style>
+    .login { 
+      margin-top: 10%;
+      width: 400px; 
+    }
+  </style>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container text-block login">
+    
+    <p class="text-center">
+      <img src="http://placehold.it/300x100" alt="Your Logo">
+    </p>
+    
+    <form action="https://[yourdomain]/login" method="post">
+      <div class="panel panel-default">
+        <div class="panel-heading">Client Login</div>
+        <div class="panel-body">
+          <input type="hidden" name="remember-me" value="true" />
+
+          <div class="form-group">
+            <input type="text" name="username" class="form-control" placeholder="Username/Email">
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" class="form-control" placeholder="Password">
+          </div>
+        </div>
+        <div class="panel-footer">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
